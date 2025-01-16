@@ -10,7 +10,13 @@
     <link rel="stylesheet" href="css/magnific-popup.css">       <!-- https://dimsemenov.com/plugins/magnific-popup/ -->
     <link rel="stylesheet" href="css/tooplate-vertex.css">
 
+<style> 
 
+    .container-lg {
+        width: 100% !important;
+        margin: 0 auto !important;
+    }
+</style>
 </head>
 <body>
     <!-- Page Loader -->
