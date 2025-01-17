@@ -31,7 +31,7 @@
     <!-- Site logo -->
     <h1 class="tm-brand">
         <i class="fas fa-mountain fa-2x tm-brand-icon"></i>
-        <span class="tm-brand-text">Vertex</span>        
+        <span class="tm-brand-text">Yaadein <br> Yaad Aati Hain</span>        
     </h1>
 
     <!-- Nav -->
