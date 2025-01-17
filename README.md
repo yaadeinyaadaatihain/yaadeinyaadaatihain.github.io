@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vertex HTML Template</title>
+    <title>Yaad Yaad Aati Hain</title>
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet"> 
     <!-- https://fonts.google.com/specimen/Kumbh+Sans -->
     <link rel="stylesheet" href="fontawesome/css/all.min.css">  <!-- https://fontawesome.com/-->  
@@ -12,8 +12,9 @@
 <style> 
 
     .container-lg, .container-lg.px-3.my-5.markdown-body {
-        width: 100% !important;
-        margin: 0 auto !important;
+        /* width: 100% !important;
+        margin: 0 auto !important; */
+        display: contents;
     }
 </style>
 </head>
