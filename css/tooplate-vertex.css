@@ -310,7 +310,7 @@ span, footer {  line-height: 1.8; }
 }
 
 .nav-link:hover,
-.nav-link.current {
+.nav-link.current, .nav-link {
     color: #ffffff;
 }
 
