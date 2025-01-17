@@ -283,7 +283,8 @@ span, footer {  line-height: 1.8; }
 
 .tm-nav {
     position: fixed;
-    top: 0;
+    /* top: 0; */
+    top: -47px;
     left: -1px;
     width: 100%;
     z-index: 1000;  
@@ -303,6 +304,9 @@ span, footer {  line-height: 1.8; }
     padding-bottom: 40px;
     display: block;
     font-size: 20px;
+
+    line-height: 13vh;
+    height: 18.2vh;
 }
 
 .nav-link:hover,
