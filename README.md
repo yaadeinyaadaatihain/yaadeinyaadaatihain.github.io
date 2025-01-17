@@ -12,7 +12,7 @@
 
 <style> 
 
-    .container-lg {
+    .container-lg, .container-lg.px-3.my-5.markdown-body {
         width: 100% !important;
         margin: 0 auto !important;
     }
