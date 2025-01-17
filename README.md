@@ -30,8 +30,8 @@
 
     <!-- Site logo -->
     <h1 class="tm-brand">
-        <i class="fas fa-mountain fa-2x tm-brand-icon"></i>
-        <span class="tm-brand-text">Follow for more!</span>
+        <marquee class="tm-ty-text">Thanks! For Visting! </marquee>
+        <marquee class="tm-brand-text">Follow for more!</marquee>
     </h1>
 
     <!-- Nav -->
