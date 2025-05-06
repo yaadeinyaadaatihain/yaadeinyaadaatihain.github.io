@@ -443,10 +443,22 @@ She’s love — unshaken, quiet, spread.<br>
             <div class="tm-section-col tm-content tm-content-small">
                 <h2 class="tm-text-primary">About Us</h2>
                 <p>
-                    You can find more free templates on Too CSS collections. Please visit Too CSS website to see a great list of HTML CSS templates. Simply type it in Google search.
-                </p>
-                <p>
-                    You may help us by spreading a word about our website or make a small contribution by contacting Tooplate directly. That will be very helpful for us. Thank you.
+                I'm Sher Bahadur, a Lead Automation Engineer by profession and a passionate writer by heart. With over 12 years of experience in the IT industry, I’ve spent my career solving complex problems through technology—while nurturing a parallel world of emotional depth through words.
+</p>
+  <p>
+Originally from Raebareli, Uttar Pradesh, and currently based in Hyderabad, I hold a B.Tech degree and have always believed in balancing logic with creativity. My journey into writing began over six years ago, driven by a deep need to express love, emotions, inner struggles, and the nuances of life. Since then, writing has become more than a hobby—it's my voice, my therapy, and my way to connect with the world.
+</p>
+  <p>
+My writing spans across Hindi and Urdu poetry, ghazals, essays, and motivational pieces, often centered on themes of romantic love, social reflections, emotional resilience, and spiritual questioning. I am especially known for my heartfelt ghazals like "वो पहली नज़र की मुस्कान थी", and stirring pieces such as "राख से रोशनी तक" and "क्या कलियुग में भगवान हैं?"
+</p>
+  <p>
+I've been recognized with over 50 awards in writing communities, including the Hindi Ratna Award, and titles like Writer of the Month in the Swarn Abha Writing Community. My work has also been featured on Red FM, and several of my poems have been presented on stage and through digital videos.
+</p>
+  <p>
+Apart from writing, I’m a proud father, a nature lover, and someone who constantly seeks knowledge and meaning—both through code and through verse.
+ </p>
+  <p>
+Whether it's a technical problem or an emotional moment, I believe every challenge has beauty hidden in it—waiting to be understood and expressed.
                 </p>
                 <hr class="tm-hr tm-mb-50">                
                 <p class="tm-mb-50">
