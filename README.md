@@ -455,7 +455,7 @@ My writing spans across Hindi and Urdu poetry, ghazals, essays, and motivational
 I've been recognized with over 50 awards in writing communities, including the Hindi Ratna Award, and titles like Writer of the Month in the Swarn Abha Writing Community. My work has also been featured on Red FM, and several of my poems have been presented on stage and through digital videos.
 </p>
   <p>
-Apart from writing, I’m a proud father, a nature lover, and someone who constantly seeks knowledge and meaning—both through code and through verse.
+Apart from writing, I’m nature lover, and someone who constantly seeks knowledge and meaning—both through code and through verse.
  </p>
   <p>
 Whether it's a technical problem or an emotional moment, I believe every challenge has beauty hidden in it—waiting to be understood and expressed.
