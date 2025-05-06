@@ -236,7 +236,7 @@ span, footer {  line-height: 1.8; }
 }
 
 .tm-content {
-    padding: 180px 60px 70px 100px;
+    padding: 50px 60px 70px 100px;
     box-sizing: border-box;
 }
 
@@ -322,8 +322,8 @@ span, footer {  line-height: 1.8; }
 }
 
 .tm-media img {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
 }
 
 .tm-media-body {  padding-left: 30px; }
