@@ -42,22 +42,22 @@
         <ul id="tm-main-nav">
             <li class="nav-item">                                
                 <a href="#intro" class="nav-link current">
-                    Introduction
+                    Home
                 </a>
             </li>
             <li class="nav-item">
                 <a href="#services" class="nav-link">
-                    Services
+                    About YYAH
                 </a>
             </li>
             <li class="nav-item">
                 <a href="#gallery" class="nav-link">
-                    Gallery
+                    Achievement 
                 </a>
             </li>
             <li class="nav-item">
                 <a href="#about" class="nav-link">
-                    About
+                    Book Published
                 </a>
             </li>
             <li class="nav-item">
@@ -76,11 +76,37 @@
                 <div class="tm-media">
                     <img src="img/gallery/tn/img-11.jpg" alt="Intro image">
                     <div class="tm-media-body">
-                        <h2><a href="#" class="tm-text-primary">Yaad Yaad Aati Hain </a></h2>
+                        <h2><a href="#" class="tm-text-primary">She, the Spark That Never Fades </a></h2>
                         <p class="tm-mb-20 tm-text-small">
-                            This is a Responsive HTML5 Template brought to you by Tooplate for
-                            100% free of charge. You can feel free to download, modify, and
-                            use this layout for your websites.
+                            She isn’t just soft hands and lullabies,
+She’s the hush in chaos, the calm in cries.
+A quiet force the world can’t name,
+She burns, she builds, she bears the flame.
+
+In sleepless nights and whispered prayers,
+She weaves her love in silent layers.
+Not just a giver, but a guide,
+A universe with stars inside.
+
+She’s laughter echoing through pain,
+The steady shelter in the rain.
+A compass when you lose your way,
+A voice that lifts you when you stray.
+
+She holds your world with open palms,
+Turns mess to meaning, storms to calms.
+With every fall, she lends her grace,
+And still believes — in every case.
+
+She wears a thousand faces true —
+A teacher, healer, warrior too.
+In every breath, in every scar,
+She proves how strong soft hearts are.
+
+So call her mother, soul, or sun,
+The one you turn to, every one.
+Not bound by blood, or name, or thread —
+She’s love — unshaken, quiet, spread.
                         </p>
                         <span class="tm-text-secondary tm-media-span tm-text-small">
                             Friday . 25 June 2021
