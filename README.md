@@ -79,35 +79,35 @@
                     <div class="tm-media-body">
                         <h2><a href="#" class="tm-text-primary">She, the Spark That Never Fades </a></h2>
                         <p class="tm-mb-20 tm-text-small">
-                            She isn’t just soft hands and lullabies,
-She’s the hush in chaos, the calm in cries.
-A quiet force the world can’t name,
-She burns, she builds, she bears the flame.
-
-In sleepless nights and whispered prayers,
-She weaves her love in silent layers.
-Not just a giver, but a guide,
-A universe with stars inside.
-
-She’s laughter echoing through pain,
-The steady shelter in the rain.
-A compass when you lose your way,
-A voice that lifts you when you stray.
-
-She holds your world with open palms,
-Turns mess to meaning, storms to calms.
-With every fall, she lends her grace,
-And still believes — in every case.
-
-She wears a thousand faces true —
-A teacher, healer, warrior too.
-In every breath, in every scar,
-She proves how strong soft hearts are.
-
-So call her mother, soul, or sun,
-The one you turn to, every one.
-Not bound by blood, or name, or thread —
-She’s love — unshaken, quiet, spread.
+                            She isn’t just soft hands and lullabies, <br>
+                            She’s the hush in chaos, the calm in cries.<br>
+A quiet force the world can’t name,<br>
+She burns, she builds, she bears the flame.<br>
+<br>
+In sleepless nights and whispered prayers,<br>
+She weaves her love in silent layers.<br>
+Not just a giver, but a guide,<br>
+A universe with stars inside.<br>
+<br>
+She’s laughter echoing through pain,<br>
+The steady shelter in the rain.<br>
+A compass when you lose your way,<br>
+A voice that lifts you when you stray.<br>
+<br>
+She holds your world with open palms,<br>
+Turns mess to meaning, storms to calms.<br>
+With every fall, she lends her grace,<br>
+And still believes — in every case.<br>
+<br>
+She wears a thousand faces true, <br>
+A teacher, healer, warrior too.<br>
+In every breath, in every scar,<br>
+She proves how strong soft hearts are.<br>
+<br>
+So call her mother, soul, or sun,<br>
+The one you turn to, every one.<br>
+Not bound by blood, or name, or thread, <br>
+She’s love — unshaken, quiet, spread.<br>
                         </p>
                         <span class="tm-text-secondary tm-media-span tm-text-small">
                             Friday . 25 June 2021
