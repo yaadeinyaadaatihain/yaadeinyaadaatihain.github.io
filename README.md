@@ -74,7 +74,8 @@
             <!-- Intro left -->
             <div class="tm-section-col tm-content">
                 <div class="tm-media">
-                    <img src="img/gallery/tn/img-11.jpg" alt="Intro image">
+                    <!--<img src="img/gallery/tn/img-11.jpg" alt="Intro image">--!>
+                    <img src="img/gallery/tn/FrancisGoya.jfif" alt="Intro image">
                     <div class="tm-media-body">
                         <h2><a href="#" class="tm-text-primary">She, the Spark That Never Fades </a></h2>
                         <p class="tm-mb-20 tm-text-small">
