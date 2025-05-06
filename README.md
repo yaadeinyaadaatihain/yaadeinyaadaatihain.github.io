@@ -47,7 +47,7 @@
             </li>
             <li class="nav-item">
                 <a href="#services" class="nav-link">
-                    About YYAH
+                    Book Published
                 </a>
             </li>
             <li class="nav-item">
@@ -57,7 +57,7 @@
             </li>
             <li class="nav-item">
                 <a href="#about" class="nav-link">
-                    Book Published
+                   About YYAH 
                 </a>
             </li>
             <li class="nav-item">
@@ -461,9 +461,7 @@ Apart from writing, I’m a proud father, a nature lover, and someone who consta
 Whether it's a technical problem or an emotional moment, I believe every challenge has beauty hidden in it—waiting to be understood and expressed.
                 </p>
                 <hr class="tm-hr tm-mb-50">                
-                <p class="tm-mb-50">
-                    Quisque luctus feugiat dui eget malesuada. Donec rutrum, nibh vel lobortis placerat, leo enim feugiat arcu, ornare imperdiet urna sem vitae tellus.
-                </p>
+                <p class="tm-mb-50"></p>
                 <div class="tm-text-right tm-mb-130">
                     <a href="#contact" class="tm-btn tm-btn-next">Contact Us</a>
                 </div>                
