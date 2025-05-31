@@ -1,196 +1,620 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Yaadein Yaad Aati Hain</title>
-  <style>
-    /* Reset and base styles */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yaad Yaad Aati Hain</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet"> 
+    <!-- https://fonts.google.com/specimen/Kumbh+Sans -->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">  <!-- https://fontawesome.com/-->  
+    <link rel="stylesheet" href="css/magnific-popup.css">       <!-- https://dimsemenov.com/plugins/magnific-popup/ -->
+    <link rel="stylesheet" href="css/tooplate-vertex.css">
 
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(to bottom, #4c1d95, #000);
-      color: #fff;
-      scroll-behavior: smooth;
-    }
+<style> 
 
-    header {
-      background-color: #6b21a8;
-      padding: 2rem 1rem;
-      text-align: center;
+    .container-lg, .container-lg.px-3.my-5.markdown-body {
+        /* width: 100% !important;
+        margin: 0 auto !important; */
+        display: contents;
     }
-
-    header h1 {
-      font-size: 2.5rem;
-      margin-bottom: 0.5rem;
-    }
-
-    header p {
-      font-style: italic;
-      font-size: 1.2rem;
-    }
-
-    nav {
-      background-color: #5b21b6;
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
-      padding: 1rem 0;
-    }
-
-    nav a {
-      color: #fff;
-      text-decoration: none;
-      font-weight: bold;
-      transition: color 0.3s ease;
-    }
-
-    nav a:hover {
-      color: #facc15;
-    }
-
-    .banner {
-      position: relative;
-      height: 300px;
-      background: url('https://images.unsplash.com/photo-1527254059242-8e1f2d622b7e?auto=format&fit=crop&w=1400&q=80') no-repeat center center/cover;
-    }
-
-    .banner-text {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      background: rgba(0, 0, 0, 0.5);
-      padding: 1.5rem 2rem;
-      border-radius: 10px;
-      font-size: 2rem;
-      font-weight: bold;
-    }
-
-    section {
-      padding: 3rem 1.5rem;
-      text-align: center;
-      animation: fadeIn 1s ease-in;
-    }
-
-    section img {
-      max-width: 90%;
-      border-radius: 10px;
-      margin-bottom: 1rem;
-      box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
-    }
-
-    .gallery, .achievements {
-      display: grid;
-      gap: 1.5rem;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      padding-top: 1rem;
-    }
-
-    .achievement-card {
-      background: rgba(255, 255, 255, 0.1);
-      padding: 1rem;
-      border-radius: 10px;
-    }
-
-    .achievement-card img {
-      width: 100%;
-      border-radius: 6px;
-    }
-
-    footer {
-      background-color: #6b21a8;
-      padding: 1rem;
-      text-align: center;
-      margin-top: 2rem;
-    }
-
-    @keyframes fadeIn {
-      from {opacity: 0;}
-      to {opacity: 1;}
-    }
-  </style>
+</style>
 </head>
 <body>
+    <!-- Page Loader -->
+    <div id="loader-wrapper">
+        <div id="loader"></div>
 
-  <header>
-    <h1>Yaadein Yaad Aati Hain</h1>
-    <p>A journey through memories and emotions</p>
-  </header>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
 
-  <div class="banner">
-    <div class="banner-text">Welcome to the World of Words</div>
-  </div>
-
-  <nav>
-    <a href="#introduction">Introduction</a>
-    <a href="#about">About Us</a>
-    <a href="#gallery">Gallery</a>
-    <a href="#achievements">Achievements</a>
-    <a href="#contact">Contact</a>
-  </nav>
-
-  <section id="introduction">
-    <h2>Introduction</h2>
-    <img src="https://images.unsplash.com/photo-1531988042231-d39a9cc12a9a?auto=format&fit=crop&w=800&q=80" alt="Writing Introduction Image" />
-    <p>Welcome to Yaadein Yaad Aati Hain — a sanctuary of emotions, stories, and the magic of words that bring back memories.</p>
-  </section>
-
-  <section id="about" style="background-color: #3c0d99;">
-    <h2>About Us</h2>
-    <img src="https://images.unsplash.com/photo-1485217988980-11786ced9454?auto=format&fit=crop&w=800&q=80" alt="About Us Image" />
-    <p>We are a community of writers, poets, and dreamers who believe in the healing power of writing. Our stories are not just ink on paper—they are echoes of the heart.</p>
-  </section>
-
-  <section id="gallery">
-    <h2>Gallery</h2>
-    <div class="gallery">
-      <img src="https://source.unsplash.com/random/400x300?sig=1&writing" alt="Gallery 1">
-      <img src="https://source.unsplash.com/random/400x300?sig=2&writing" alt="Gallery 2">
-      <img src="https://source.unsplash.com/random/400x300?sig=3&writing" alt="Gallery 3">
     </div>
-  </section>
 
-  <section id="achievements" style="background-color: #3c0d99;">
-    <h2>Achievements</h2>
-    <div class="achievements">
-      <div class="achievement-card">
-        <img src="https://images.unsplash.com/photo-1494173853739-c21f58b16055?auto=format&fit=crop&w=400&q=80" alt="Published Poet">
-        <h3>Published Poet</h3>
-        <p>Published in national poetry anthologies</p>
-      </div>
-      <div class="achievement-card">
-        <img src="https://images.unsplash.com/photo-1520974735194-1bc3c46d84c5?auto=format&fit=crop&w=400&q=80" alt="Stage Performer">
-        <h3>Stage Performer</h3>
-        <p>Performed on major stages across India</p>
-      </div>
-      <div class="achievement-card">
-        <img src="https://images.unsplash.com/photo-1601987077399-a4c2be9c4b4e?auto=format&fit=crop&w=400&q=80" alt="Featured on Radio">
-        <h3>Featured on Radio</h3>
-        <p>Invited on Red FM to share poetry journey</p>
-      </div>
-      <div class="achievement-card">
-        <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=400&q=80" alt="1st Prize - Swarn Abha">
-        <h3>1st Prize - Swarn Abha</h3>
-        <p>Winner in the Swarn Abha Writing Competition</p>
-      </div>
-    </div>
-  </section>
+    <!-- Site logo -->
+    <h1 class="tm-brand">
+        <marquee class="tm-ty-text">Thanks! For Visting! </marquee>
+        <marquee class="tm-brand-text">Follow for more!</marquee>
+    </h1>
 
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <p>For collaborations, queries, or submissions:</p>
-    <p>Email: <a href="mailto:yaadeinyaadaatihain@example.com" style="color: #facc15;">yaadeinyaadaatihain@example.com</a></p>
-  </section>
+    <!-- Nav -->
+    <nav class="tm-nav">
+        <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        <ul id="tm-main-nav">
+            <li class="nav-item">                                
+                <a href="#intro" class="nav-link current">
+                    Home
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#services" class="nav-link">
+                    Book Published
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#gallery" class="nav-link">
+                    Achievement 
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#about" class="nav-link">
+                   About YYAH 
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#contact" class="nav-link">
+                    Contact
+                </a>
+            </li>
+        </ul>
+    </nav>
 
-  <footer>
-    <p>&copy; 2025 Yaadein Yaad Aati Hain. All rights reserved.</p>
-  </footer>
+    <!-- Content -->
+    <main>
+        <div id="intro" class="tm-section">
+            <!-- Intro left -->
+            <div class="tm-section-col tm-content">
+                <div class="tm-media">
+                    <!--<img src="img/gallery/tn/img-11.jpg" alt="Intro image">--!>
+                    <img src="img/gallery/tn/FrancisGoya.jfif" alt="Intro image">
+                    <div class="tm-media-body">
+                        <h2><a href="#" class="tm-text-primary">She, the Spark That Never Fades </a></h2>
+                        <p class="tm-mb-20 tm-text-small">
+                            She isn’t just soft hands and lullabies, <br>
+                            She’s the hush in chaos, the calm in cries.<br>
+A quiet force the world can’t name,<br>
+She burns, she builds, she bears the flame.<br>
+<br>
+In sleepless nights and whispered prayers,<br>
+She weaves her love in silent layers.<br>
+Not just a giver, but a guide,<br>
+A universe with stars inside.<br>
+<br>
+She’s laughter echoing through pain,<br>
+The steady shelter in the rain.<br>
+A compass when you lose your way,<br>
+A voice that lifts you when you stray.<br>
+<br>
+She holds your world with open palms,<br>
+Turns mess to meaning, storms to calms.<br>
+With every fall, she lends her grace,<br>
+And still believes — in every case.<br>
+<br>
+She wears a thousand faces true, <br>
+A teacher, healer, warrior too.<br>
+In every breath, in every scar,<br>
+She proves how strong soft hearts are.<br>
+<br>
+So call her mother, soul, or sun,<br>
+The one you turn to, every one.<br>
+Not bound by blood, or name, or thread, <br>
+She’s love — unshaken, quiet, spread.<br>
+                        </p>
+                        <span class="tm-text-secondary tm-media-span tm-text-small">
+                            Friday . 25 June 2021
+                        </span>
+                        <hr class="tm-hr tm-mr">
+                    </div>
+                </div>
+    
+                <div class="tm-media">
+                    <img src="img/gallery/tn/img-12.jpg" alt="Intro image">
+                    <div class="tm-media-body">
+                        <h2><a href="#" class="tm-text-primary">Responsive and Parallax Images</a></h2>
+                        <p class="tm-mb-20 tm-text-small">
+                      You are not allowed to re-distribute this template as a ZIP file on any template collection website for the template download purpose. Please <a rel="nofollow" href="https://www.tooplate.com/contact" target="_parent">contact us</a> for more info. </p>
+                        <span class="tm-text-secondary tm-media-span tm-text-small">
+                            Monday . 21 June 2021
+                    </span>
+                        <hr class="tm-hr tm-mr">
+                    </div>
+                </div>
+                
+                <div class="tm-media">
+                    <img src="img/gallery/tn/img-18.jpg" alt="Intro image">
+                    <div class="tm-media-body">
+                        <h2><a href="#" class="tm-text-primary">Do you like this HTML layout?</a></h2>
+                        <p class="tm-mb-20 tm-text-small">
+                            This is a custom full-width layout. Gallery page included paging thumbnails with a beautiful hover effect and a larger image pop up in the lightbox.
+                        </p>
+                        <span class="tm-text-secondary tm-media-span tm-text-small">
+                            Wednesday . 16 June 2021
+                        </span>
+                        <hr class="tm-hr tm-mr">
+                    </div>
+                </div>
+                <div class="tm-text-right">
+                    <a href="#services" class="tm-btn tm-btn-next">Next page</a>
+                </div>   
+                
+            </div>
+            
+            <!-- Intro right -->
+            <div class="tm-section-col tm-parallax" data-parallax="scroll" data-image-src="img/vertex-bg-01.jpg"></div>
+        </div> <!-- #intro -->
 
+        <div id="services" class="tm-section">
+            <!-- Services left -->
+            <div class="tm-section-col tm-content">
+                <h2 class="tm-text-primary">Our Services</h2>
+                <p>Credit goes to <strong>Pexels website</strong> for background images and Unsplash website for gallery images used in this Vertex HTML template. Vestibulum quis ultrices ipsum, tempor cursus odio. Donec et nisl sit amet mauris consequat sodales. 
+                </p>
+                <p>
+                    Morbi a sapien vitae nunc mollis efficitur quis eu purus. Donec nec orci pharetra, ullamcorper orci eu, gravida dolor. Morbi at rutrum nibh. Sed a erat vitae ipsum mollis tincidunt sed nec orci.
+                </p>
+                <div class="tm-text-right">
+                    <a href="#gallery" class="tm-btn tm-btn-next">Next page</a>
+                </div>                
+                <hr class="tm-hr tm-ml tm-sm-mt-30">
+                <div class="tm-row">
+                    <div class="tm-col">
+                        <div class="tm-text-center tm-my-50">
+                            <i class="fas fa-street-view fa-3x"></i>
+                        </div>                        
+                        <p>
+                            Fusce mi sapien, faucibus ut tortor a, tempus laoreet magna. Nulla felis ipsum, lobortis eu efficitur eget, malesuada id lacus.
+                        </p>
+                    </div>
+                    <div class="tm-col">
+                        <div class="tm-text-center tm-my-50">
+                            <i class="fas fa-bullseye fa-3x"></i>
+                        </div>                        
+                        <p>
+                            Nullam pellentesque accumsan hendrerit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                        </p>
+                    </div>
+                </div>                
+            </div>
+            
+            <!-- Services right -->
+            <div class="tm-section-col tm-parallax" data-parallax="scroll" data-image-src="img/vertex-bg-02.jpg"></div>
+        </div> <!-- #services -->
+
+        <div id="gallery" class="tm-content tm-content-small-top">
+            <div class="tm-gallery-container">
+                <h2 class="tm-text-primary tm-text-right tm-gallery-header">Our Gallery</h2> 
+                <div class="tm-gallery tm-mb-80">
+                    <figure class="effect-goliath tm-gallery-item">
+                        <img src="img/gallery/tn/img-01.jpg" alt="Image"/>
+                        <figcaption>
+                            <h2>Number One</h2>
+                            <p>Best Template Site</p>
+                            <a href="img/gallery/img-01.jpg">View more</a>
+                        </figcaption>			
+                    </figure>
+                    <figure class="effect-goliath tm-gallery-item">
+                        <img src="img/gallery/tn/img-02.jpg" alt="Image"/>
+                        <figcaption>
+                            <h2>Number 2</h2>
+                            <p>Tooplate HTML CSS</p>
+                            <a href="img/gallery/img-02.jpg">View more</a>
+                        </figcaption>			
+                    </figure>
+                    <figure class="effect-goliath tm-gallery-item">
+                        <img src="img/gallery/tn/img-03.jpg" alt="Image"/>
+                        <figcaption>
+                            <h2>Number 3</h2>
+                            <p>Free Template</p>
+                            <a href="img/gallery/img-03.jpg">View more</a>
+                        </figcaption>			
+                    </figure>
+                    <figure class="effect-goliath tm-gallery-item">
+                        <img src="img/gallery/tn/img-04.jpg" alt="Image"/>
+                        <figcaption>
+                            <h2>Number 4</h2>
+                            <p>Free Download</p>
+                            <a href="img/gallery/img-04.jpg">View more</a>
+                        </figcaption>			
+                    </figure>
+                    <figure class="effect-goliath tm-gallery-item">
+                        <img src="img/gallery/tn/img-05.jpg" alt="Image"/>
+                        <figcaption>
+                            <h2>Number 5</h2>
+                            <p>Mobile Ready</p>
+                            <a href="img/gallery/img-05.jpg">View more</a>
+                        </figcaption>			
+                    </figure>
+                    <figure class="effect-goliath tm-gallery-item">
+                        <img src="img/gallery/tn/img-06.jpg" alt="Image"/>
+                        <figcaption>
+                            <h2>Number 6</h2>
+                            <p>Responsive Design</p>
+                            <a href="img/gallery/img-06.jpg">View more</a>
+                        </figcaption>			
+                    </figure>
+                    <figure class="effect-goliath tm-gallery-item">
+                        <img src="img/gallery/tn/img-07.jpg" alt="Image"/>
+                        <figcaption>
+                            <h2>Number 7</h2>
+                            <p>Custom HTML CSS</p>
+                            <a href="img/gallery/img-07.jpg">View more</a>
+                        </figcaption>			
+                    </figure>
+                    <figure class="effect-goliath tm-gallery-item">
+                        <img src="img/gallery/tn/img-08.jpg" alt="Image"/>
+                        <figcaption>
+                            <h2>Number 8</h2>
+                            <p>Template for you</p>
+                            <a href="img/gallery/img-08.jpg">View more</a>
+                        </figcaption>			
+                    </figure>
+                    <figure class="effect-goliath tm-gallery-item">
+                        <img src="img/gallery/tn/img-09.jpg" alt="Image"/>
+                        <figcaption>
+                            <h2>Number 9</h2>
+                            <p>Get it FREE</p>
+                            <a href="img/gallery/img-09.jpg">View more</a>
+                        </figcaption>			
+                    </figure>
+                    <figure class="effect-goliath tm-gallery-item">
+                        <img src="img/gallery/tn/img-10.jpg" alt="Image"/>
+                        <figcaption>
+                            <h2>Number 10</h2>
+                            <p>Tell your friends</p>
+                            <a href="img/gallery/img-10.jpg">View more</a>
+                        </figcaption>			
+                    </figure>
+                    <figure class="effect-goliath tm-gallery-item">
+                        <img src="img/gallery/tn/img-11.jpg" alt="Image"/>
+                        <figcaption>
+                            <h2>Picture 11</h2>
+                            <p>Aliquam lacinia</p>
+                            <a href="img/gallery/img-11.jpg">View more</a>
+                        </figcaption>			
+                    </figure>
+                    <figure class="effect-goliath tm-gallery-item">
+                        <img src="img/gallery/tn/img-12.jpg" alt="Image"/>
+                        <figcaption>
+                            <h2>Item 12</h2>
+                            <p>Aliquam lacinia</p>
+                            <a href="img/gallery/img-12.jpg">View more</a>
+                        </figcaption>			
+                    </figure>
+                    <figure class="effect-goliath tm-gallery-item">
+                        <img src="img/gallery/tn/img-13.jpg" alt="Image"/>
+                        <figcaption>
+                            <h2>Number 13</h2>
+                            <p>Aliquam lacinia</p>
+                            <a href="img/gallery/img-13.jpg">View more</a>
+                        </figcaption>			
+                    </figure>
+                    <figure class="effect-goliath tm-gallery-item">
+                        <img src="img/gallery/tn/img-14.jpg" alt="Image"/>
+                        <figcaption>
+                            <h2>Picture 14</h2>
+                            <p>Aliquam lacinia</p>
+                            <a href="img/gallery/img-14.jpg">View more</a>
+                        </figcaption>			
+                    </figure>
+                    <figure class="effect-goliath tm-gallery-item">
+                        <img src="img/gallery/tn/img-15.jpg" alt="Image"/>
+                        <figcaption>
+                            <h2>Pic 15</h2>
+                            <p>Aliquam lacinia</p>
+                            <a href="img/gallery/img-15.jpg">View more</a>
+                        </figcaption>			
+                    </figure>
+                    <figure class="effect-goliath tm-gallery-item">
+                        <img src="img/gallery/tn/img-16.jpg" alt="Image"/>
+                        <figcaption>
+                            <h2>Pic 16</h2>
+                            <p>Aliquam lacinia</p>
+                            <a href="img/gallery/img-16.jpg">View more</a>
+                        </figcaption>			
+                    </figure>
+                    <figure class="effect-goliath tm-gallery-item">
+                        <img src="img/gallery/tn/img-17.jpg" alt="Image"/>
+                        <figcaption>
+                            <h2>Number 17</h2>
+                            <p>Aliquam lacinia</p>
+                            <a href="img/gallery/img-17.jpg">View more</a>
+                        </figcaption>			
+                    </figure>
+                    <figure class="effect-goliath tm-gallery-item">
+                        <img src="img/gallery/tn/img-18.jpg" alt="Image"/>
+                        <figcaption>
+                            <h2>Pic 18</h2>
+                            <p>Aliquam lacinia</p>
+                            <a href="img/gallery/img-18.jpg">View more</a>
+                        </figcaption>			
+                    </figure>
+                    <figure class="effect-goliath tm-gallery-item">
+                        <img src="img/gallery/tn/img-19.jpg" alt="Image"/>
+                        <figcaption>
+                            <h2>Pic 19</h2>
+                            <p>Aliquam lacinia</p>
+                            <a href="img/gallery/img-19.jpg">View more</a>
+                        </figcaption>			
+                    </figure>
+                    <figure class="effect-goliath tm-gallery-item">
+                        <img src="img/gallery/tn/img-20.jpg" alt="Image"/>
+                        <figcaption>
+                            <h2>Number 20</h2>
+                            <p>Aliquam lacinia</p>
+                            <a href="img/gallery/img-20.jpg">View more</a>
+                        </figcaption>			
+                    </figure>
+                    <figure class="effect-goliath tm-gallery-item">
+                        <img src="img/gallery/tn/img-21.jpg" alt="Image"/>
+                        <figcaption>
+                            <h2>Pic 21</h2>
+                            <p>Aliquam lacinia</p>
+                            <a href="img/gallery/img-21.jpg">View more</a>
+                        </figcaption>			
+                    </figure>
+                    <figure class="effect-goliath tm-gallery-item">
+                        <img src="img/gallery/tn/img-22.jpg" alt="Image"/>
+                        <figcaption>
+                            <h2>Pic 22</h2>
+                            <p>Aliquam lacinia</p>
+                            <a href="img/gallery/img-22.jpg">View more</a>
+                        </figcaption>			
+                    </figure>
+                    <figure class="effect-goliath tm-gallery-item">
+                        <img src="img/gallery/tn/img-23.jpg" alt="Image"/>
+                        <figcaption>
+                            <h2>Pic 23</h2>
+                            <p>Aliquam lacinia</p>
+                            <a href="img/gallery/img-23.jpg">View more</a>
+                        </figcaption>			
+                    </figure>
+                    <figure class="effect-goliath tm-gallery-item">
+                        <img src="img/gallery/tn/img-24.jpg" alt="Image"/>
+                        <figcaption>
+                            <h2>Number 24</h2>
+                            <p>Web Design 2021</p>
+                            <a href="img/gallery/img-24.jpg">View more</a>
+                        </figcaption>			
+                    </figure>
+                    <figure class="effect-goliath tm-gallery-item">
+                        <img src="img/gallery/tn/img-25.jpg" alt="Image"/>
+                        <figcaption>
+                            <h2>Number 25</h2>
+                            <p>Website Design</p>
+                            <a href="img/gallery/img-25.jpg">View more</a>
+                        </figcaption>			
+                    </figure>
+                    <figure class="effect-goliath tm-gallery-item">
+                        <img src="img/gallery/tn/img-05.jpg" alt="Image"/>
+                        <figcaption>
+                            <h2>Number 26</h2>
+                            <p>HTML CSS Layout</p>
+                            <a href="img/gallery/img-05.jpg">View more</a>
+                        </figcaption>			
+                    </figure>
+                    <figure class="effect-goliath tm-gallery-item">
+                        <img src="img/gallery/tn/img-04.jpg" alt="Image"/>
+                        <figcaption>
+                            <h2>Number 27</h2>
+                            <p>Aliquam lacinia</p>
+                            <a href="img/gallery/img-04.jpg">View more</a>
+                        </figcaption>			
+                    </figure>
+                    <figure class="effect-goliath tm-gallery-item">
+                        <img src="img/gallery/tn/img-03.jpg" alt="Image"/>
+                        <figcaption>
+                            <h2>Number 28</h2>
+                            <p>Aliquam lacinia</p>
+                            <a href="img/gallery/img-03.jpg">View more</a>
+                        </figcaption>			
+                    </figure>
+                    <figure class="effect-goliath tm-gallery-item">
+                        <img src="img/gallery/tn/img-02.jpg" alt="Image"/>
+                        <figcaption>
+                            <h2>Number 29</h2>
+                            <p>Aliquam lacinia</p>
+                            <a href="img/gallery/img-02.jpg">View more</a>
+                        </figcaption>			
+                    </figure>
+                    <figure class="effect-goliath tm-gallery-item">
+                        <img src="img/gallery/tn/img-01.jpg" alt="Image"/>
+                        <figcaption>
+                            <h2>Number 30</h2>
+                            <p>Aliquam lacinia</p>
+                            <a href="img/gallery/img-01.jpg">View more</a>
+                        </figcaption>			
+                    </figure>
+                </div>
+                <div class="tm-paging tm-mb-130"></div>
+            </div>
+        </div>
+
+        <div id="about" class="tm-section">
+            <!-- About left -->
+            <div class="tm-section-col tm-content tm-content-small">
+                <h2 class="tm-text-primary">About Us</h2>
+                <p>
+                I'm Sher Bahadur, a Lead Automation Engineer by profession and a passionate writer by heart. With over 12 years of experience in the IT industry, I’ve spent my career solving complex problems through technology—while nurturing a parallel world of emotional depth through words.
+</p>
+  <p>
+Originally from Raebareli, Uttar Pradesh, and currently based in Hyderabad, I hold a B.Tech degree and have always believed in balancing logic with creativity. My journey into writing began over six years ago, driven by a deep need to express love, emotions, inner struggles, and the nuances of life. Since then, writing has become more than a hobby—it's my voice, my therapy, and my way to connect with the world.
+</p>
+  <p>
+My writing spans across Hindi and Urdu poetry, ghazals, essays, and motivational pieces, often centered on themes of romantic love, social reflections, emotional resilience, and spiritual questioning. I am especially known for my heartfelt ghazals like "वो पहली नज़र की मुस्कान थी", and stirring pieces such as "राख से रोशनी तक" and "क्या कलियुग में भगवान हैं?"
+</p>
+  <p>
+I've been recognized with over 50 awards in writing communities, including the Hindi Ratna Award, and titles like Writer of the Month in the Swarn Abha Writing Community. My work has also been featured on Red FM, and several of my poems have been presented on stage and through digital videos.
+</p>
+  <p>
+Apart from writing, I’m nature lover, and someone who constantly seeks knowledge and meaning—both through code and through verse.
+ </p>
+  <p>
+Whether it's a technical problem or an emotional moment, I believe every challenge has beauty hidden in it—waiting to be understood and expressed.
+                </p>
+                <hr class="tm-hr tm-mb-50">                
+                <p class="tm-mb-50"></p>
+                <div class="tm-text-right tm-mb-130">
+                    <a href="#contact" class="tm-btn tm-btn-next">Contact Us</a>
+                </div>                
+            </div>
+            
+            <!-- About right -->
+            <div class="tm-section-col tm-parallax" data-parallax="scroll" data-image-src="img/vertex-bg-03.jpg"></div>
+        </div> <!-- #about -->
+
+        <div id="contact" class="tm-section">
+            <!-- Contact left -->
+            <div class="tm-section-col tm-content tm-content-small">
+                <h2 class="tm-text-primary">Contact Us</h2>
+                <p>
+                    Pellentesque nec dui pellentesque, fermentum turpis eu, facilisis libero. Vestibulum fringilla nulla augue, at consequat metus facilisis condimentum.
+                </p> 
+                <form id="contact-form" action="" method="POST" class="tm-contact-form tm-mb-200">
+                    <div class="form-group">
+                        <input type="text" name="name" class="form-control rounded-0" placeholder="Name" required />
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" class="form-control rounded-0" placeholder="Email" required />
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="6" name="message" class="form-control rounded-0" placeholder="Message" required ></textarea>
+                    </div>
+
+                    <div class="form-group tm-text-right">
+                        <button type="submit" class="tm-btn">Send</button>
+                    </div>
+                </form>
+                <footer class="tm-copyright tm-text-small">
+                    Copyright Yaad Yaad Aati Hain
+                    
+                     <a rel="nofollow" href="#" class="tm-text-link" target="_parent">Yaad Yaad Aati Hain</a>
+                </footer>              
+            </div>
+            
+            <!-- Contact right -->
+            <div class="tm-section-col tm-parallax tm-relative" data-parallax="scroll" data-image-src="img/vertex-bg-04.jpg">
+                <!-- Map -->
+                <div class="mapouter">
+                    <div class="gmap-canvas">
+                        <iframe width="100%" height="420" id="gmap_canvas"
+                            src="https://maps.google.com/maps?q=Av.+L%C3%BAcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- #contact -->
+    </main>
+
+    <script src="js/plugins.js"></script>
+    <script>
+        $(window).on("load", function() {
+            $('body').addClass('loaded');
+        });
+
+        $(function(){
+            
+            /*************** Navigation *****************/
+
+            const tmMainNav = $("#tm-main-nav");
+
+            tmMainNav.singlePageNav({
+                filter: ':not(.external)'
+            });
+
+            $('.navbar-toggler').click(function(e) {
+                e.stopPropagation();
+                tmMainNav.toggleClass('show');
+            });
+
+            $("html").click(function(e) {
+                $("#tm-main-nav").removeClass("show");
+            });
+
+            /****************** Smooth Scrolling *****************/
+
+            $(".tm-btn-next").on('click', function(event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function(){
+                        // window.location.hash = hash;
+                    });
+                }
+            });
+
+            $('.tm-brand-icon').on('click', function(event) {
+                $('html, body').animate({
+                        scrollTop: $('#intro').offset().top
+                    }, 800);
+            });
+
+            /****************** Gallery ******************/
+
+            const galleryItems = document.querySelector(".tm-gallery").children;
+            const itemsPerPage = 10;
+            const totalPages = Math.ceil(galleryItems.length / itemsPerPage);
+            const pageAttribute = 'data-page';
+
+            function setPagination(currentPage) {
+                for(let i = 1; i <= totalPages; i++) {
+                    var $pager = '';
+                    
+                    if(currentPage == i) {
+                        $pager = $('<a href="javascript:void(0);" class="active tm-paging-link" '+pageAttribute+'="'+i+'"></a>');
+                    } else {
+                        $pager = $('<a href="javascript:void(0);" class="tm-paging-link" '+pageAttribute+'="'+i+'"></a>');
+                    }
+
+                    $pager.html(i);
+
+                    $pager.click(function(){ 
+                        $('.tm-paging-link').removeClass("active");
+                        $(this).addClass('active');
+                        var page = $(this).eq(0).attr(pageAttribute);
+                        showItems(page);
+                    });
+
+                    $pager.appendTo($('.tm-paging'));
+                }
+            }
+
+            function showItems(currentPage) {
+                for(let i = 0; i < galleryItems.length; i++) {
+                    galleryItems[i].classList.remove("show");
+                    galleryItems[i].classList.add("hide");
+
+                    if(i >= (currentPage * itemsPerPage) - itemsPerPage && i < currentPage * itemsPerPage) {
+                        galleryItems[i].classList.remove("hide");
+                        galleryItems[i].classList.add("show");
+                    }
+                }
+            }
+
+            setPagination(1);
+            showItems(1);
+
+            /****************** Magnific Popup ***********/
+
+            $('.tm-gallery').magnificPopup({
+                delegate: 'a',
+                type: 'image',
+                gallery: {
+                    enabled: true
+                }
+            });
+        });
+    </script>
 </body>
 </html>
